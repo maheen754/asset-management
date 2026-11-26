@@ -4,7 +4,6 @@ A small full-stack prototype for a warehouse: operators register assets (ID, cat
 
 Manual entry can later be replaced by an automated system: a separate machine-to-machine endpoint (`POST /api/assets/ingest`) already exists and is demonstrated by `scripts/simulate_feed.py`.
 
-
 ## Features
 
 - Form with Asset ID, Asset Category (dropdown) and Asset Photo (upload; phones can use the camera)
